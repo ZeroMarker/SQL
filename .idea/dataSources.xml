@@ -19,7 +19,7 @@
       <driver-ref>intersystemsiris</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.intersystems.jdbc.IRISDriver</jdbc-driver>
-      <jdbc-url>jdbc:IRIS://localhost:51774/USER</jdbc-url>
+      <jdbc-url>jdbc:IRIS://localhost:1972/USER</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
     <data-source source="LOCAL" name="@localhost" uuid="fb000ff1-79dc-4955-8897-3576e888717d">
