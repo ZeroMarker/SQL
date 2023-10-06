@@ -1,0 +1,38 @@
+## Keyword
+
+- where
+- not
+- between and
+- in
+- like
+- distinct
+- order by ASC/DESC
+- limit
+- offset
+- join on
+- inner
+- left
+- right
+- full
+- is
+- and
+- or
+- as
+- count
+- min
+- max
+- avg
+- sum
+- group by
+- having
+- insert into
+- values
+- update
+- set
+- delete
+- create
+- alter
+- add
+- union
+- intersect
+- except

@@ -8,25 +8,25 @@
       <jdbc-url>mongodb+srv://cluster0.iwja9er.mongodb.net/test</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="zavi@aws.connect.psdb.cloud" uuid="e9935b19-9af1-45ea-bc63-015d8bd3c265">
-      <driver-ref>mysql.8</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://aws.connect.psdb.cloud:3306/zavi</jdbc-url>
-      <working-dir>$ProjectFileDir$</working-dir>
-    </data-source>
-    <data-source source="LOCAL" name="USER@localhost" uuid="b4ac2818-d11c-42c6-baf1-4e025f24b126">
-      <driver-ref>intersystemsiris</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>com.intersystems.jdbc.IRISDriver</jdbc-driver>
-      <jdbc-url>jdbc:IRIS://localhost:1972/USER</jdbc-url>
-      <working-dir>$ProjectFileDir$</working-dir>
-    </data-source>
     <data-source source="LOCAL" name="@localhost" uuid="fb000ff1-79dc-4955-8897-3576e888717d">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3306</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="0@redis-10004.c60.us-west-1-2.ec2.cloud.redislabs.com" uuid="faf3fd21-8fda-4100-be68-1eb6cb8a2be1">
+      <driver-ref>redis</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>jdbc.RedisDriver</jdbc-driver>
+      <jdbc-url>jdbc:redis://redis-10004.c60.us-west-1-2.ec2.cloud.redislabs.com:10004/0</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="postgres@localhost" uuid="7aeee086-ca99-401a-98ed-22fd6854482a">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/postgres</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>

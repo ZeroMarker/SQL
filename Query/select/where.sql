@@ -1,0 +1,15 @@
+-- or
+-- between and
+-- like
+-- %    any char
+-- _    single char
+-- regexp
+-- in
+-- REGEXP 'field' | '^field' | 'field$' | 'field|mac|rose' | '[gim]e' | '[a-h]e'
+-- ^ begining
+-- $ end
+-- | or
+-- [abcd] single char
+-- [a-h] range
+-- is null
+-- is not null
