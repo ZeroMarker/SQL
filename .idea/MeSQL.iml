@@ -3,6 +3,7 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$" />
     <content url="file://$MODULE_DIR$/../mongo" />
+    <content url="file://$MODULE_DIR$/../oracle" />
     <content url="file://$MODULE_DIR$/../postgre" />
     <content url="file://$MODULE_DIR$/../redis" />
     <orderEntry type="inheritedJdk" />
