@@ -38,3 +38,14 @@ WHERE client_id = ANY (
     GROUP BY client_id
     HAVING COUNT(*) >= 2
 );
+
+-- exists
+USE sql_invoicing;
+SELECT client_id
+FROM clients c
+WHERE EXISTS(
+    SELECT client_id
+    FROM invoices i
+    WHERE  i.client_id = c.client_id
+)
+
