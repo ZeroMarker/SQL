@@ -8,13 +8,6 @@
       <jdbc-url>mongodb+srv://cluster0.iwja9er.mongodb.net/test</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="@localhost" uuid="fb000ff1-79dc-4955-8897-3576e888717d">
-      <driver-ref>mysql.8</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306</jdbc-url>
-      <working-dir>$ProjectFileDir$</working-dir>
-    </data-source>
     <data-source source="LOCAL" name="0@redis-10004.c60.us-west-1-2.ec2.cloud.redislabs.com" uuid="faf3fd21-8fda-4100-be68-1eb6cb8a2be1">
       <driver-ref>redis</driver-ref>
       <synchronize>true</synchronize>
@@ -22,26 +15,35 @@
       <jdbc-url>jdbc:redis://redis-10004.c60.us-west-1-2.ec2.cloud.redislabs.com:10004/0</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="postgres@localhost" uuid="7aeee086-ca99-401a-98ed-22fd6854482a">
+    <data-source source="LOCAL" name="vulture@47.100.38.198" uuid="ae57ce97-7cd8-41f0-81fd-06be7d341c8d">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://localhost:5432/postgres</jdbc-url>
+      <jdbc-url>jdbc:postgresql://47.100.38.198:5433/dbadc8c9687ec64c1bbbd08f7dd64de92dvulture</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="oracle" uuid="2ebae497-e42f-487c-a465-fe3bf809bc18">
-      <driver-ref>oracle.19</driver-ref>
+    <data-source source="LOCAL" name="defaultdb@odin-platypus.a.aivencloud.com" uuid="e93560b5-52bb-4ca1-a55a-9687c3a99d9f">
+      <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
-      <auto-commit>false</auto-commit>
-      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
-      <jdbc-url>jdbc:oracle:thin:@//localhost:1521/FREEPDB1</jdbc-url>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://odin-platypus.a.aivencloud.com:26481/defaultdb</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+      <driver-properties>
+        <property name="sslMode" value="REQUIRED" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="DHC-APP@114.242.246.235" uuid="59a78b49-f6c6-4d70-8465-1f683767cf7c">
+      <driver-ref>intersystemsiris</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.intersystems.jdbc.IRISDriver</jdbc-driver>
+      <jdbc-url>jdbc:IRIS://114.242.246.235:51773/DHC-APP</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="defaultdb@garden-gnome-6828.8nk.cockroachlabs.cloud" uuid="a3bcde3e-8a37-44a2-b111-be5b4707c45a">
-      <driver-ref>cockroach</driver-ref>
+    <data-source source="LOCAL" name="hawk@dpg-cl2bgtrmgg9c73eh3c6g-a.oregon-postgres.render.com" uuid="9b70470a-3695-41eb-a10e-3b52daaf4df7">
+      <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://garden-gnome-6828.8nk.cockroachlabs.cloud:26257/defaultdb</jdbc-url>
+      <jdbc-url>jdbc:postgresql://dpg-cl2bgtrmgg9c73eh3c6g-a.oregon-postgres.render.com:5432/hawk</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>
