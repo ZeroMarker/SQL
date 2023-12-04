@@ -13,3 +13,10 @@ Structured Query Language
 [一小时MySQL教程](https://www.bilibili.com/video/BV1AX4y147tA/)
 
 [SQL进阶教程 | Mosh](https://www.bilibili.com/video/BV1UE41147KC/)
+
+[Database Design Course - Learn how to design and plan a database for beginners](https://www.youtube.com/watch?v=ztHopE5Wnpc)
+
+[MIT 6.830/6.814: Database Systems](https://www.youtube.com/playlist?list=PLfciLKR3SgqOxCy1TIXXyfTqKzX2enDjK)
+
+[CMU Intro to Database Systems (15-445/645 - Fall 2022)](https://www.youtube.com/playlist?list=PLSE8ODhjZXjaKScG3l0nuOiDTTqpfnWFf)
+
