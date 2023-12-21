@@ -4,6 +4,8 @@ Structured Query Language
 
 ## Relative Database
 
+[DB Engine Ranking](https://db-engines.com/en/ranking)
+
 [7 Database Paradigms](https://www.youtube.com/watch?v=W2Z7fbCLSTw)
 
 [Learn Database Normalization - 1NF, 2NF, 3NF, 4NF, 5NF](https://www.youtube.com/watch?v=GFQaEYEc8_8)
