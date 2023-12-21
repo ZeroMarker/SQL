@@ -22,3 +22,5 @@ Structured Query Language
 
 [CMU Intro to Database Systems (15-445/645 - Fall 2022)](https://www.youtube.com/playlist?list=PLSE8ODhjZXjaKScG3l0nuOiDTTqpfnWFf)
 
+[简析时序数据库InfluxDB](https://www.cnblogs.com/buttercup/p/15204096.html)
+
