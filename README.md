@@ -24,3 +24,5 @@ Structured Query Language
 
 [简析时序数据库InfluxDB](https://www.cnblogs.com/buttercup/p/15204096.html)
 
+[Welcome to sql50’s documentation!](https://sql50.readthedocs.io/zh-cn/latest/index.html)
+
