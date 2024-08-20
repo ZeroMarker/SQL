@@ -2,7 +2,7 @@
     "type": "MySQLNotebook",
     "version": "1.0",
     "caption": "DB Notebook",
-    "content": "SHOW DATABASES;\nUSE sql_hr;\nSHOW TABLES;\n",
+    "content": "SHOW DATABASES;\nUSE sql_hr;\nSHOW TABLES;\nSELECT * from sql_store.products;\n",
     "options": {
         "tabSize": 4,
         "insertSpaces": true,
@@ -15,11 +15,11 @@
             {
                 "inSelectionMode": false,
                 "selectionStart": {
-                    "lineNumber": 4,
+                    "lineNumber": 5,
                     "column": 1
                 },
                 "position": {
-                    "lineNumber": 4,
+                    "lineNumber": 5,
                     "column": 1
                 }
             }
@@ -27,10 +27,10 @@
         "viewState": {
             "scrollLeft": 0,
             "firstPosition": {
-                "lineNumber": 1,
+                "lineNumber": 2,
                 "column": 1
             },
-            "firstPositionDeltaTop": 0
+            "firstPositionDeltaTop": 211
         },
         "contributionsState": {
             "editor.contrib.folding": {},
@@ -46,10 +46,11 @@
                 "result": {
                     "type": "resultIds",
                     "list": [
-                        "0533da2c-9183-41e8-96bc-d1d05ecfb230"
+                        "631cf976-92cb-4567-fe00-b45c9f4c20ce"
                     ]
                 },
                 "currentHeight": 352,
+                "currentSet": 1,
                 "statements": [
                     {
                         "delimiter": ";",
@@ -64,8 +65,8 @@
             },
             "data": [
                 {
-                    "tabId": "14c24247-8f9d-43a9-a6be-8cd4c952bb08",
-                    "resultId": "0533da2c-9183-41e8-96bc-d1d05ecfb230",
+                    "tabId": "672b0a99-0f9f-4bd9-cc30-8db1d596279a",
+                    "resultId": "631cf976-92cb-4567-fe00-b45c9f4c20ce",
                     "rows": [
                         {
                             "0": "defaultdb"
@@ -134,7 +135,8 @@
                         }
                     ]
                 },
-                "currentHeight": 37.59375,
+                "currentHeight": 36.65625,
+                "currentSet": 1,
                 "statements": [
                     {
                         "delimiter": ";",
@@ -157,10 +159,11 @@
                 "result": {
                     "type": "resultIds",
                     "list": [
-                        "075f72ca-5b44-4d11-b28a-8d0a1c9ec671"
+                        "e2d75695-e7d3-436f-8c76-3b8bfbc26db6"
                     ]
                 },
                 "currentHeight": 150.296875,
+                "currentSet": 1,
                 "statements": [
                     {
                         "delimiter": ";",
@@ -175,8 +178,8 @@
             },
             "data": [
                 {
-                    "tabId": "14c24247-8f9d-43a9-a6be-8cd4c952bb08",
-                    "resultId": "075f72ca-5b44-4d11-b28a-8d0a1c9ec671",
+                    "tabId": "672b0a99-0f9f-4bd9-cc30-8db1d596279a",
+                    "resultId": "e2d75695-e7d3-436f-8c76-3b8bfbc26db6",
                     "rows": [
                         {
                             "0": "employees"
@@ -210,8 +213,204 @@
                 "start": 4,
                 "end": 4,
                 "language": "mysql",
-                "currentHeight": 180,
-                "statements": []
+                "result": {
+                    "type": "resultIds",
+                    "list": [
+                        "eb4f4318-242d-47ca-93a0-9c3f03d3a73a"
+                    ]
+                },
+                "currentHeight": 352,
+                "currentSet": 1,
+                "statements": [
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 0,
+                            "length": 33
+                        },
+                        "contentStart": 0,
+                        "state": 0
+                    }
+                ]
+            },
+            "data": [
+                {
+                    "tabId": "672b0a99-0f9f-4bd9-cc30-8db1d596279a",
+                    "resultId": "eb4f4318-242d-47ca-93a0-9c3f03d3a73a",
+                    "rows": [
+                        {
+                            "0": 1,
+                            "1": "Foam Dinner Plate",
+                            "2": 70,
+                            "3": "1.21"
+                        },
+                        {
+                            "0": 2,
+                            "1": "Pork - Bacon,back Peameal",
+                            "2": 49,
+                            "3": "4.65"
+                        },
+                        {
+                            "0": 3,
+                            "1": "Lettuce - Romaine, Heart",
+                            "2": 38,
+                            "3": "3.35"
+                        },
+                        {
+                            "0": 4,
+                            "1": "Brocolinni - Gaylan, Chinese",
+                            "2": 90,
+                            "3": "4.53"
+                        },
+                        {
+                            "0": 5,
+                            "1": "Sauce - Ranch Dressing",
+                            "2": 94,
+                            "3": "1.63"
+                        },
+                        {
+                            "0": 6,
+                            "1": "Petit Baguette",
+                            "2": 14,
+                            "3": "2.39"
+                        },
+                        {
+                            "0": 7,
+                            "1": "Sweet Pea Sprouts",
+                            "2": 98,
+                            "3": "3.29"
+                        },
+                        {
+                            "0": 8,
+                            "1": "Island Oasis - Raspberry",
+                            "2": 26,
+                            "3": "0.74"
+                        },
+                        {
+                            "0": 9,
+                            "1": "Longan",
+                            "2": 67,
+                            "3": "2.26"
+                        },
+                        {
+                            "0": 10,
+                            "1": "Broom - Push",
+                            "2": 6,
+                            "3": "1.09"
+                        }
+                    ],
+                    "columns": [
+                        {
+                            "title": "product_id",
+                            "field": "0",
+                            "dataType": {
+                                "type": 4,
+                                "flags": [
+                                    "SIGNED",
+                                    "ZEROFILL"
+                                ],
+                                "numericPrecision": 10,
+                                "parameterFormatType": "OneOrZero",
+                                "synonyms": [
+                                    "INTEGER",
+                                    "INT4"
+                                ]
+                            },
+                            "inPK": true,
+                            "nullable": false,
+                            "autoIncrement": true
+                        },
+                        {
+                            "title": "name",
+                            "field": "1",
+                            "dataType": {
+                                "type": 17,
+                                "characterMaximumLength": 65535,
+                                "flags": [
+                                    "BINARY",
+                                    "ASCII",
+                                    "UNICODE"
+                                ],
+                                "needsQuotes": true,
+                                "parameterFormatType": "OneOrZero"
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "quantity_in_stock",
+                            "field": "2",
+                            "dataType": {
+                                "type": 4,
+                                "flags": [
+                                    "SIGNED",
+                                    "ZEROFILL"
+                                ],
+                                "numericPrecision": 10,
+                                "parameterFormatType": "OneOrZero",
+                                "synonyms": [
+                                    "INTEGER",
+                                    "INT4"
+                                ]
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "unit_price",
+                            "field": "3",
+                            "dataType": {
+                                "type": 10,
+                                "flags": [
+                                    "UNSIGNED",
+                                    "ZEROFILL"
+                                ],
+                                "numericPrecision": 65,
+                                "numericScale": 30,
+                                "parameterFormatType": "TwoOrOneOrZero",
+                                "synonyms": [
+                                    "FIXED",
+                                    "NUMERIC",
+                                    "DEC"
+                                ]
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        }
+                    ],
+                    "executionInfo": {
+                        "text": "OK, 10 records retrieved in 375.653ms"
+                    },
+                    "totalRowCount": 10,
+                    "hasMoreRows": false,
+                    "currentPage": 0,
+                    "index": 0,
+                    "sql": "SELECT * from sql_store.products",
+                    "updatable": true,
+                    "fullTableName": "sql_store.products"
+                }
+            ]
+        },
+        {
+            "state": {
+                "start": 5,
+                "end": 5,
+                "language": "mysql",
+                "currentSet": 1,
+                "statements": [
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 0,
+                            "length": 0
+                        },
+                        "contentStart": 0,
+                        "state": 0
+                    }
+                ]
             },
             "data": []
         }
