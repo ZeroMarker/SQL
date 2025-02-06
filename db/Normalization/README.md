@@ -1,4 +1,4 @@
-## Database Normal Form
+# Database Normal Form
 
 [Normal](https://www.essentialsql.com/database-normalization/)
 
