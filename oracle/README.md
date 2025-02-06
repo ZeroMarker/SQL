@@ -1,6 +1,5 @@
 # oracle
 
-
 [Oracle Tutorial](https://www.oracletutorial.com/)
 
 [Oracle PL/SQL Full Course](https://www.youtube.com/watch?v=yGU4YfSSjdM)
@@ -8,6 +7,7 @@
 [Oracle SQL for Beginners](https://www.youtube.com/watch?v=yukL9vRalVo)
 
 ## ORACLE
+
 [ORACLE](https://container-registry.oracle.com/)
 
 ```sh
@@ -64,7 +64,7 @@ sqlplus / as sysdba
 ```
 
 ## connection
+
 username: SYSTEM
 password: password
 Service Name: FREEPDB1
-
