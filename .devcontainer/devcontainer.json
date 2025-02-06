@@ -3,8 +3,8 @@
   "features": {
     "ghcr.io/devcontainers-contrib/features/mysql-homebrew:1": {},
     "ghcr.io/devcontainers/features/docker-in-docker:2": {},
-	"ghcr.io/devcontainers-contrib/features/postgres-asdf:1": {},
-	"ghcr.io/devcontainers-contrib/features/mongodb-atlas-cli-homebrew:1": {},
-	"ghcr.io/devcontainers-contrib/features/redis-homebrew:1": {}
+    "ghcr.io/devcontainers-contrib/features/postgres-asdf:1": {},
+    "ghcr.io/devcontainers-contrib/features/mongodb-atlas-cli-homebrew:1": {},
+    "ghcr.io/devcontainers-contrib/features/redis-homebrew:1": {}
   }
 }
