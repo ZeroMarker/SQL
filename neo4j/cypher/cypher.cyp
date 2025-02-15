@@ -9,6 +9,9 @@ CREATE (n:Person {name:'Mike'}) RETURN n
 CREATE (n:Person {name:'Liz'}) RETURN n
 CREATE (n:Person {name:'Shawn'}) RETURN n
 
+CREATE (person1:Person {name: 'Bob', age: 30}),
+       (person2:Person {name: 'Charlie', age: 35}),
+       (person3:Person {name: 'David', age: 40})
 
 // area
 CREATE (n:Location {city:'Miami', state:'FL'})
@@ -18,6 +21,11 @@ CREATE (n:Location {city:'Portland', state:'ME'})
 CREATE (n:Location {city:'San Francisco', state:'CA'})
 
 // relationship
+
+MERGE (person1:Person {name: 'Alice'})
+MERGE (person2:Person {name: 'Bob'})
+MERGE (person1)-[:KNOWS]->(person2)
+
 MATCH (a:Person {name:'Liz'}), 
       (b:Person {name:'Mike'}) 
 MERGE (a)-[:FRIENDS]->(b)
@@ -53,3 +61,4 @@ MATCH (n)-[:MARRIED]-() RETURN n
 CREATE (a:Person {name:'Todd'})-[r:FRIENDS]->(b:Person {name:'Carlos'})
 
 MATCH (a:Person {name:'Mike'})-[r1:FRIENDS]-()-[r2:FRIENDS]-(friend_of_a_friend) RETURN friend_of_a_friend.name AS fofName
+
