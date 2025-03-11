@@ -1,1 +1,0 @@
-TB_Diagnosis_Detail
